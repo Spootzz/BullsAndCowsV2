@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/author_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:layout_below="@id/author_info"
+        android:layout_marginTop="48dp" />
+</RelativeLayout>

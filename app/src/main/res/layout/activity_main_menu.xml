@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Start Game"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="24dp"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinnerDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:entries="@array/difficulty_array"
+        android:layout_below="@id/btnStartGame"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="About Developer"
+        android:layout_below="@id/spinnerDifficulty"
+        android:layout_marginBottom="24dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Exit"
+        android:layout_below="@id/btnAbout"
+        android:textSize="25sp" />
+</RelativeLayout>

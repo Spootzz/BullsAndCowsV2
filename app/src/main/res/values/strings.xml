@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bulls and Cows</string>
+    <string name="start_game">Start game</string>
+    <string name="exit">Exit</string>
+    <string name="choose_difficulty">Choose difficulty</string>
+    <string-array name="difficulty_array">
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+    <string name="check">Check</string>
+    <string name="bulls_and_cows">Bulls: %1$d, Cows: %2$d</string>
+    <string name="about_text">Автор: Бродовський Михайло, группа ПІ-212</string>
+
+    <string name="enter_number">Enter number:</string>
+</resources>
